@@ -1,0 +1,23 @@
+﻿@model Empresa.com.Models.Usuario
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+<div id="login-form">
+
+    <h3>Login</h3>
+
+    <fieldset>
+
+        <form action="" method="POST">
+
+            <input type="text" id="User" name="User" required value="" placeholder="Usuário"> <!-- JS because of IE support; better: placeholder="Email" -->
+
+            <input type="password" id="Senha" name="Senha" required value="" placeholder="Senha"> <!-- JS because of IE support; better: placeholder="Password" -->
+
+            <input type="submit" value="Login">
+        </form>
+
+    </fieldset>
+
+</div>
